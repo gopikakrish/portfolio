@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@700&display=swap');
+.fnt{
+    font-family: 'Nanum Myeongjo', serif;
+}
+.icon{
+border-radius: 50%;
+width: 30px;
+}
+.topbar{
+    background-color: rgb(228, 231, 235);
+}
+.bgcl{
+    background: rgb(233, 234, 236);
+}
+.profile{
+    border-radius: 100%;
+        
+}
+.p1{
+    font-family: 'Anuphan', sans-serif;   
+    font-size: 100px;
+    color: black;
+}
+.p2{
+    font-family: 'Anuphan', sans-serif;   
+    font-size: 40px;
+    color: black;
+}
+.but1{
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 190px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s;
+    border: none;
+}
+.but1 a{
+    text-decoration: none;
+    color: black;
+}
+.but2 a{
+    text-decoration: none;
+    color: black;
+}
+.but3 a{
+    text-decoration: none;
+    color: black;
+}
+.but1:hover{
+    background-color:white;   
+}
+.but2{
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    background-color: orangered;
+    /* margin: 50px;   */
+    border-radius: 190px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s;
+    border: none;
+}
+.but2:hover{
+    background-color:white;   
+}
+.but3{
+    display: inline-block;
+    height: 130px;
+    width: 130px; 
+    background-color:aqua;
+    /* margin: 50px;   */
+    border-radius: 190px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s;
+    border: none;
+}
+.but3:hover{
+    background-color:white;   
+}
+.sliding{
+    color: black;
+    font: 1em ;
+    letter-spacing: 1px;    
+}
+.sliding::after{
+    content: "";
+    position: absolute;
+    left: 85px;
+    height: 85px;
+    width: 100%;
+    background: rgb(233, 234, 236);
+    border-left: 1px solid rgb(233, 234, 236);
+    animation: typing 3s steps(16) infinite;   
+}
+@keyframes typing{
+    100%{
+        left:90%;
+    }
+}
+.po{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+

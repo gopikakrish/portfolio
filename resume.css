@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@700&display=swap');
+
+.d0{
+    background-color:#a5a5a500;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.resume{
+    font-size: 26px;
+    font-weight: 700;
+    margin-top:20px ;
+    margin-bottom:20px ;
+    color: #050d18;
+    width: 50px;
+}
+.re{
+    text-align: center;
+    padding-top: 90px;
+    font-weight: bold;
+}
+.c1{
+    color:rgb(108, 108, 160);
+}
+.resume .resume1{
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+}
+.cfd{
+    margin-top: 130px;
+}
+
+
+
